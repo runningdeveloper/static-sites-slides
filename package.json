@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Deck created with mdx-deck",
   "scripts": {
+    "cp-images": "cp -r ./images  ./dist/images",
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
+    "build": "mdx-deck build deck.mdx && npm run cp-images",
     "pdf": "mdx-deck pdf deck.mdx",
     "image": "mdx-deck screenshot deck.mdx",
-    "help": "mdx-deck"
+    "help": "mdx-deck",
+    "publish": "gh-pages -d ./dist"
   },
   "keywords": [],
   "author": "Brent Jackson",
@@ -15,5 +17,8 @@
   "devDependencies": {
     "mdx-deck": "^1.6.7"
   },
-  "name": "talkGatsby"
+  "name": "talkGatsby",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
