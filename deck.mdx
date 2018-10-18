@@ -30,7 +30,7 @@ import ClickCode from './ClickCode'
 
 - Freelance developer
 - 😍 javascript
-- maker 🏗️ 🖨️
+- Maker 🏗️ 🖨️
 - I Run for fun ?
 - Twitter [@geoff4l](https://twitter.com/geoff4l)
 - Blog [runningdeveloper.com](https://runningdeveloper.com)
@@ -66,10 +66,10 @@ export default Split
 
 ![](images/wordpress-logo2.jpg)
 
-- Server for DB, php
-- Maintenance
-- Cost
-- Tough to make fast
+- Server for DB, php 👎
+- Maintenance 👎
+- Cost 👎
+- Tough to make fast 👎
 
 ```notes
 - New nothing at the time
@@ -84,13 +84,12 @@ export default Split
 
 export default Split
 
-![](images/angular.png)
+<ClickCode image="images/angular.png" imageTwo="images/angular_code.png"/>
 
-- Cool no server, no DB (*s3)
-- Blank screen js load
-- no SEO, no sharing
-
-![](images/angular_code.png)
+- Cool no server (*s3, CDN), no DB 👌
+- Wait for js to load 👎
+- No real routing 👎
+- no SEO, no sharing 👎
 
 ```notes
 - Getting first internship learning angularjs (version 1)
@@ -106,12 +105,12 @@ export default Split
 
 <ClickCode image="images/gulp.png" imageTwo="images/gulp_code.png"/>
 
-- Cool no server, no DB (*s3)
-- SEO and sharing
-- Static html
-- Cheap and fast
-- Way to complex always breaking
-- Didn't need to reinvent the wheel
+- Cool no server (*s3, CDN), no DB 👌
+- SEO and sharing 👌
+- Static html 👌
+- Cheap and fast 👌
+- Way to complex always breaking 👎
+- Didn't need to reinvent the wheel 👎
 
 ```notes
 - Gulp is a build tool that pipes files through functions to transform
@@ -123,15 +122,17 @@ export default Split
 
 # Static sites?
 
-- No servers (hey @pjapplez), serve only static content
+- No servers kind of, serving only static content
 - No backend database layer
 - Speed (CDN)
 - Low cost
+- SEO friendly
 - Static site generators (Jekyll, hexo, hugo, wintersmith, Gatsby)
 
 ![](images/jam.png)
 
 ```notes
+- Simple servers (already figured out how to send static files quickly)
 - html css and js
 - not like the old days - js frameworks you do a lot with frontend js
 
@@ -145,7 +146,7 @@ JavaScript, APIs, Markup
 
 ---
 
-![](images/ssg1.png)
+![](images/static_site.png)
 
 ---
 
@@ -153,26 +154,28 @@ export default Split
 
 ![](images/hexo.png)
 
-- Cool no server, no DB (*s3)
-- SEO and sharing
-- Markdown files
-- Cheap and Fast
-- Plugins to solve tasks
-- Focus on theme/presentation only
-- Cool js stuff u can only load up afterwards
+- Cool no server (*s3, CDN), no DB 👌
+- SEO and sharing 👌
+- Cheap and Fast 👌
+- Plugins to solve tasks 👌
+- Markdown files 👌
+- Focus on theme/presentation only 👌
+- Slow navigation 👎
+- Miss js in page, need to load later 👎
 
 ```notes
 - All awesome
 - I want to be able to use something like angular/react
+- No very modern
 - Not seemless from js, theme to what gets made 
 ```
 
 ---
 
 # Finally Gatsby
-## I can write React
-### Static site generator (no server!)
-### It gets me a great lighthouse score?
+## I can write React 👌
+### I can get SSR without a server? 👌
+### It gets me a great lighthouse score with no effort? 👌
 
 ![](images/gatsby.jpg)
 
@@ -180,11 +183,11 @@ export default Split
 
 export default Split
 
-- Use React and GraphQl
+- React for your presentation
+- GraphQl to query data
 - Static site generator
-- Take any data source
-- Does magic with webpack
-- Loads of community plugins
+- Fast
+- Many community plugins
 - Version 2 just released
 
 ![](images/gatsby_build.png)
@@ -226,10 +229,11 @@ $ gatsby new demo-site
 
 ---
 
+![](images/swag2.png)
+
+---
+
+# So if you have a content site that updates not so frequently maybe use Gatsby for speed, cost and developer experience
 
 <Social/>
 
-
-```notes
-- Create speaker notes in fenced code blocks
-```
